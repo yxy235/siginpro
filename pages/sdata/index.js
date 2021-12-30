@@ -5,12 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    username:'能不能在上面填一下姓名咧',
+    section:'能不能在上面填一下部门咧',
+    id:'',
+    key:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
+  userNameInput:function(e){
+    this.setData({
+      username:e.detail.value
+    })
+  },
+
+  sectionInput:function(e){
+    this.setData({
+      section:e.detail.value
+    })
+  },
+
+  idInput:function(e){
+    this.setData({
+      id:e.detail.value
+    })
+  },
   onLoad: function (options) {
 
   },
