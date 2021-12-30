@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/post1/index",
     "pages/index/index",
     "pages/sdata/index"
   ],
