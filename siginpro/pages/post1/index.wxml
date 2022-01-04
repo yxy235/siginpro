@@ -1,0 +1,7 @@
+<!--pages/post1/index.wxml-->
+<text>姓名：</text>
+<input class="input" bindinput="bindName" value="{{UserName}}" placeholder="name" auto-focus="true"/>
+<text>学号：</text>
+<input class="input" type="digit" bindinput="bindID" value="{{UserID}}" placeholder="ID" maxlength="8"/>
+<view class="warning">{{infoMess}}</view>
+<button bindtap="gotoPage1">确定</button>

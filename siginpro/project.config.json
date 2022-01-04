@@ -9,10 +9,6 @@
     ]
   },
   "setting": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c914987 (ghx)
     "bundle": false,
     "userConfirmedBundleSwitch": false,
     "urlCheck": true,
@@ -45,47 +41,6 @@
   "compileType": "miniprogram",
   "libVersion": "2.19.4",
   "appid": "wx754c637a14d9e591",
-<<<<<<< HEAD
-=======
-=======
-    "urlCheck": true,
-    "es6": true,
-    "enhance": true,
-    "postcss": true,
-    "preloadBackgroundData": false,
-    "minified": true,
-    "newFeature": false,
-    "coverView": true,
-    "nodeModules": false,
-    "autoAudits": false,
-    "showShadowRootInWxmlPanel": true,
-    "scopeDataCheck": false,
-    "uglifyFileName": false,
-    "checkInvalidKey": true,
-    "checkSiteMap": true,
-    "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
-    "lazyloadPlaceholderEnable": false,
-    "useMultiFrameRuntime": true,
-    "useApiHook": true,
-    "useApiHostProcess": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    },
-    "enableEngineNative": false,
-    "useIsolateContext": true,
-    "userConfirmedBundleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "showES6CompileOption": false
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.19.4",
->>>>>>> e7e867a (ghx)
->>>>>>> c914987 (ghx)
   "projectname": "miniprogram-1",
   "debugOptions": {
     "hidedInDevtools": []
@@ -96,13 +51,6 @@
     "servePath": ""
   },
   "isGameTourist": false,
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-  "appid": "wxc5e0835bc0db98aa",
->>>>>>> e7e867a (ghx)
->>>>>>> c914987 (ghx)
   "condition": {
     "search": {
       "list": []

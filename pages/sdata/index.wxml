@@ -1,5 +1,9 @@
 <!--pages/sdata/index.wxml-->
 <text>pages/sdata/index.wxml 这里为啥有这一段吖</text>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c914987 (ghx)
 <view>个人信息</view>
 <view class="itemView">姓名：
     <input class="input" name="username" placeholder="{{username}}" 
@@ -10,3 +14,24 @@
     bindinput="sectionInput"/>
 </view>
 
+<<<<<<< HEAD
+=======
+=======
+
+<view class="title">个人信息</view>
+<view>
+<text class="itemView">姓名：</text>
+<text class="data">{{username}}</text>
+</view>
+<view>
+<text class="itemView">部门：</text>
+<text class="data">{{section}}</text>
+</view>
+<view>
+<text class="itemView">抽奖码：</text>
+<text class="data">{{id}}</text>
+</view>
+<button bindtap="getLotteryResult">查看抽奖结果</button>
+<view class="warning">{{infoMess}}</view>
+>>>>>>> e7e867a (ghx)
+>>>>>>> c914987 (ghx)
