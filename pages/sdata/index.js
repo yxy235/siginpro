@@ -8,16 +8,8 @@ Page({
     username:'能不能在上面填一下姓名咧',
     section:'能不能在上面填一下部门咧',
     id:'',
-<<<<<<< HEAD
-    key:''
-=======
-<<<<<<< HEAD
-    key:''
-=======
     key:'',
     infoMess:''
->>>>>>> e7e867a (ghx)
->>>>>>> c914987 (ghx)
   },
 
   /**
@@ -40,10 +32,6 @@ Page({
       id:e.detail.value
     })
   },
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c914987 (ghx)
   onLoad: function (options) {
 
   },
@@ -51,9 +39,6 @@ Page({
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-<<<<<<< HEAD
-=======
-=======
  
   onLoad: function (options) {
     this.setData({username:getApp().globalData.UserName})
@@ -79,8 +64,6 @@ Page({
       })
     }
       },
->>>>>>> e7e867a (ghx)
->>>>>>> c914987 (ghx)
   onReady: function () {
 
   },
@@ -96,17 +79,10 @@ Page({
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
     this.setData({
       infoMess : ''
     })
->>>>>>> e7e867a (ghx)
->>>>>>> c914987 (ghx)
   },
 
   /**

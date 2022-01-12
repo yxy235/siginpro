@@ -1,4 +1,3 @@
 <!--pages/lottery/lottery.wxml-->
-<text>pages/lottery/lottery.wxml</text>
 <view>中奖的号码为：</view>
 <view>{{LuckyDog}}</view>
