@@ -1,1 +1,35 @@
 /* pages/sdata/index.wxss */
+.warning{
+  position: relative;
+  flex: content;
+  height: 8rpx;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  margin-top: 400rpx;
+  position: inherit;
+  /* flex: content; */
+  height: 100rpx;
+  flex-direction: column;
+  align-items: 8rpx;
+  justify-content: space-between;
+  padding: 2rpx 0;
+  box-sizing: border-box;
+  margin-left: 40px;
+}
+.title{
+  font-size: 52rpx;
+  font-weight: 700;
+  padding: 20rpx;
+  margin-bottom: 50rpx;
+}
+.itemView{
+  font-size: 48rpx;
+  font-weight: 700;
+   padding: 50rpx;
+}

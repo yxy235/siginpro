@@ -1,14 +1,12 @@
 // pages/post1/index.js
-
-var app = getApp()
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
     UserID: '',
     UserName: '',
-    UserDepartment:'',
     infoMess: ''
   },
 
@@ -68,8 +66,7 @@ Page({
 
   },
   gotoPage1: function (options) {   
-    if(this.data.UserName.length == 0 || this.data.UserID.length == 0||this.data.UserDepartment.length == 0){
-
+    if(this.data.UserName.length == 0 || this.data.UserID.length == 0){
       this.setData({
         infoMess:'温馨提示：用户名和密码不能为空！'
       })
@@ -77,9 +74,6 @@ Page({
       this.setData({
         infoMess: ''
       })
-      getApp().globalData.UserName = this.data.UserName,
-      getApp().globalData.UserID = this.data.UserID,
-      getApp().globalData.UserDepartment = this.data.UserDepartment,
       wx.switchTab({      
           url: '/pages/index/index',    //要跳转到的页面路径
       })
@@ -97,12 +91,6 @@ Page({
      UserID: ID
    })
   },
-  bindDepartment: function (e) {
-    let  department= e.detail.value;
-    this.setData({
-      UserDepartment: department
-    })
-   },
   login: function(){
     wx.request({
       url: 'https://www.dfhelper.top:8080/login',
@@ -110,7 +98,6 @@ Page({
       data:{
         UserID: app.globaldata.id,
         UserName: app.globaldata.name,
-        UserDepartment: app.globaldata.department,
       }
     })
   }

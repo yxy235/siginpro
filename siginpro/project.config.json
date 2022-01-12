@@ -1,7 +1,12 @@
 {
   "description": "项目配置文件",
   "packOptions": {
-    "ignore": []
+    "ignore": [
+      {
+        "type": "file",
+        "value": ".eslintrc.js"
+      }
+    ]
   },
   "setting": {
     "bundle": false,
@@ -30,12 +35,13 @@
     "enableEngineNative": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
-    "showES6CompileOption": false
+    "showES6CompileOption": false,
+    "minifyWXML": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.21.3",
-  "appid": "wx9f9f5c3b9964e133",
-  "projectname": "miniprogram-8",
+  "libVersion": "2.19.4",
+  "appid": "wx754c637a14d9e591",
+  "projectname": "miniprogram-1",
   "debugOptions": {
     "hidedInDevtools": []
   },
