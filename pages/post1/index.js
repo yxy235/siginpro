@@ -1,5 +1,6 @@
 // pages/post1/index.js
 
+
 var app = getApp()
 Page({
   /**
@@ -8,8 +9,9 @@ Page({
   data: {
     UserID: '',
     UserName: '',
-    UserDepartment:'',
-    infoMess: ''
+    UserDepartment:0,
+    infoMess: '',
+    Departments:['请选择部门','部门一','部门二','部门三']
   },
 
   /**
@@ -71,7 +73,11 @@ Page({
     if(this.data.UserName.length == 0 || this.data.UserID.length == 0||this.data.UserDepartment.length == 0){
 
       this.setData({
-        infoMess:'温馨提示：用户名和密码不能为空！'
+        infoMess:'温馨提示：姓名和学号不能为空！'
+      })
+    }else if(this.data.UserDepartment==0){
+      this.setData({
+        infoMess:'温馨提示：请选择部门！'
       })
     }else{
       this.setData({
@@ -101,6 +107,12 @@ Page({
     let  department= e.detail.value;
     this.setData({
       UserDepartment: department
+    })
+   },
+   bindDepartmentChange:function(e){
+     let department=e.detail.value;
+    this.setData({
+      UserDepartment:department
     })
    },
   login: function(){

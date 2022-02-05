@@ -11,13 +11,14 @@
   align-items: center;
 }
 button{
+  display: flex;
   margin-top: 400rpx;
   position: inherit;
   /* flex: content; */
   height: 100rpx;
   flex-direction: column;
-  align-items: 8rpx;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   padding: 2rpx 0;
   box-sizing: border-box;
   margin-left: 40px;

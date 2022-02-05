@@ -9,7 +9,9 @@ Page({
     section:'能不能在上面填一下部门咧',
     id:'',
     key:'',
-    infoMess:''
+    infoMess:'',
+    /* 显示用 */
+    Departments:['部门一','部门二','部门三']
   },
 
   /**
